@@ -24,7 +24,7 @@ As another option, the inner function can be written as a string of at least two
 $ npm i fill-range-pattern
 ```
 
-## Extended Usage Example
+## Usage
 
 ```js
 const filler = require("fill-range-pattern");
