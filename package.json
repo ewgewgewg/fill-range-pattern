@@ -1,0 +1,16 @@
+{
+    "name": "fill-range-pattern",
+    "version": "1.0.0",
+    "description": "Creates array sequences based on input pattern",
+    "license": "MIT",
+    "repository": "ewgewgewg/fill-range-pattern",
+    "main": "index.js",
+    "keywords": [
+        "fill",
+        "pattern",
+        "sequence",
+        "algorithm",
+        "array",
+        "math"
+    ]
+}
