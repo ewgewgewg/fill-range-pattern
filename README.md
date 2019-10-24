@@ -2,7 +2,7 @@
 
 Creates array sequences based on inputs. The exported function takes three arguments, an initializer (which becomes the starting value or values), an inner function, and a desired array length.
 
-## Quick Example
+### Quick Example
 ```js
 const filler = require("fill-range-pattern");
 
