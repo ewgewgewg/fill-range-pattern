@@ -2,6 +2,14 @@
 
 Creates array sequences based on inputs. The exported function takes three arguments, an initializer (which becomes the starting value or values), an inner function, and a desired array length.
 
+## Quick Example
+```js
+const filler = require("fill-range-pattern");
+
+filler(1, (x) => x * 2, 5)
+//=> [1, 2, 4, 8, 16]
+```
+
 The intializer can be a number or an array of desired starting values. (The second case is useful if you wish to establish a sequence that looks back on prior indices, such as the Fibonacci Sequence.)
 
 The inner function will begin to work on the final starting value, and perform its operation on that value before pushing the result on the result array. The inner function will then perform its operation on the new final value (the one that was just added), etc. This process will iterate until the desired length is reached. Length includes any given starting value or values.
@@ -16,7 +24,7 @@ As another option, the inner function can be written as a string of at least two
 $ npm i fill-range-pattern
 ```
 
-## Usage
+## Extended Usage Example
 
 ```js
 const filler = require("fill-range-pattern");
