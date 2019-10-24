@@ -12,7 +12,7 @@ filler(1, (x) => x * 2, 5)
 
 The intializer can be a number or an array of desired starting values. (The second case is useful if you wish to establish a sequence that looks back on prior indices, such as the Fibonacci Sequence.)
 
-The inner function will begin to work on the final starting value, and perform its operation on that value before pushing the result on the result array. The inner function will then perform its operation on the new final value (the one that was just added), etc. This process will iterate until the desired length is reached. Length includes any given starting value or values.
+The inner function will begin to work on the final starting value, and perform its operation on that value before pushing the result on the result array. The inner function will then perform its operation on the new final value (the one that was just added), etc. This process will iterate until the desired array length is reached. Length includes any given starting value or values.
 
 The inner function can be specified in a variety of ways. It can have a single parameter, the value to be modified after each step. It can alternatively have two or three parameters. The second inner parameter is index (CAUTION: when using index i, note the fact i refers to the index of the last value already created in the array, and not the index of the new value that will be created). The third inner parameter is the array itself.
 
